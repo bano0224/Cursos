@@ -1,0 +1,26 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "Curso de aprendizaje",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bano0224/Cursos.git"
+  },
+  "author": "Bano Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bano0224/Cursos/issues"
+  },
+  "homepage": "https://github.com/bano0224/Cursos#readme",
+  "dependencies": {
+    "apollo-server": "^3.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
