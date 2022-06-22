@@ -1,7 +1,11 @@
 "use strict";
-(() => {
-    const nombre = "Albano";
-    const getName = () => {
-        console.log('Viejo getName');
+var Validations;
+(function (Validations) {
+    Validations.validateText = (text) => {
+        return (text.length > 3) ? true : false;
     };
-})();
+    Validations.validateDate = (myDate) => {
+        return (isNaN(myDate.valueOf())) ? false : true;
+    };
+})(Validations || (Validations = {}));
+console.log(Validations.validateText('Albano'));
